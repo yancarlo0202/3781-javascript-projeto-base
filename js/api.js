@@ -24,7 +24,7 @@ const api = {
         }
     },
 
-    async buscarPensamentoPorId() {
+    async buscarPensamentoPorId(id) {
         try {
             const response = await fetch(`http://localhost:3000/pensamentos/${id}`)
             return await response.json()
