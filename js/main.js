@@ -3,13 +3,6 @@ import api from "./api.js"
 
 document.addEventListener("DOMContentLoaded", () => {
     ui.redenrizarPensamentos()
-
-    const formularioPensamento = document.getElementById("pensamento-form")
-    formularioPensamento.addEventListener("submit", manipularSubmissaoFormulario)
-})
-
-document.addEventListener("DOMContentLoaded", () => {
-    ui.redenrizarPensamentos()
   
     const formularioPensamento = document.getElementById("pensamento-form")
     const botaoCancelar = document.getElementById("botao-cancelar")
